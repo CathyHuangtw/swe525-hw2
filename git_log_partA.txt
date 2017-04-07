@@ -1,0 +1,106 @@
+commit 2c0e83226688951a0aefa73ee25df8e0b43e35a5
+Author: Cathy Huang <cathyhaung.tw@gmail.com>
+Date:   Fri Apr 7 01:50:30 2017 -0700
+
+    Re-adding file2.txt
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..5622e76
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1,2 @@
++expected graduation year: 2018
++first job title: software engineer
+
+commit a42d72ba00e59468e2665acb01c416920ef9f85e
+Author: Cathy Huang <cathyhaung.tw@gmail.com>
+Date:   Fri Apr 7 01:04:18 2017 -0700
+
+    Deleting file2.txt
+
+diff --git a/file1.txt b/file1.txt
+index 051fac6..ac39be0 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,4 +1,5 @@
+ Name: Cathy Huang
+ Major: Software Engineering
+ Favorite Restaurant: In n Out
+-Favorite Movie: A Walk to Remember
+\ No newline at end of file
++Favorite Movie: A Walk to Remember
++Favorite Color: Pink
+\ No newline at end of file
+diff --git a/file2.txt b/file2.txt
+deleted file mode 100644
+index 5622e76..0000000
+--- a/file2.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-expected graduation year: 2018
+-first job title: software engineer
+
+commit 7557bfa711a55e6f95923747fcce78b1c0d8681e
+Author: Cathy Huang <cathyhaung.tw@gmail.com>
+Date:   Fri Apr 7 01:02:18 2017 -0700
+
+    Created file2.txt
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..5622e76
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1,2 @@
++expected graduation year: 2018
++first job title: software engineer
+
+commit 3ef61fabb2fecf5c8bee8f5458e00aafd3fda5df
+Author: Cathy Huang <cathyhaung.tw@gmail.com>
+Date:   Fri Apr 7 00:52:04 2017 -0700
+
+    Added favorite restaurant and movie.
+
+diff --git a/file1.txt b/file1.txt
+index b9e6664..051fac6 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,2 +1,4 @@
+ Name: Cathy Huang
+ Major: Software Engineering
++Favorite Restaurant: In n Out
++Favorite Movie: A Walk to Remember
+\ No newline at end of file
+
+commit dbfc79f48880002409a927b229ccb0bef4d7deb5
+Author: Cathy Huang <cathyhaung.tw@gmail.com>
+Date:   Fri Apr 7 00:49:35 2017 -0700
+
+    Now has my major
+
+diff --git a/file1.txt b/file1.txt
+index 90aeb7d..b9e6664 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,2 +1,2 @@
+ Name: Cathy Huang
+-ID: 91849
+\ No newline at end of file
++Major: Software Engineering
+
+commit fa175876ab94bc82a510bdaad6cc082f88e4426f
+Author: Cathy Huang <cathyhaung.tw@gmail.com>
+Date:   Fri Apr 7 00:48:05 2017 -0700
+
+    Committing a new file with my name
+
+diff --git a/file1.txt b/file1.txt
+new file mode 100644
+index 0000000..90aeb7d
+--- /dev/null
++++ b/file1.txt
+@@ -0,0 +1,2 @@
++Name: Cathy Huang
++ID: 91849
+\ No newline at end of file
