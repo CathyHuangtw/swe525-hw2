@@ -2,3 +2,4 @@ Name: Cathy Huang
 Major: Software Engineering
 Favorite Restaurant: In n Out
 Favorite Movie: A Walk to Remember
+Favorite Color: Pink
