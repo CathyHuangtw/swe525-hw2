@@ -1,2 +1,2 @@
 Name: Cathy Huang
-ID: 91849
+Major: Software Engineering
