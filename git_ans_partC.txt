@@ -1,0 +1,22 @@
+-What command did you use to configure the remote?
+
+git remote add origin https://github.com/CathyHuangtw/swe525-hw2.git
+git push -u origin master
+
+
+-What is a bare repository? What makes it different from normal repositories? In what situations is it used?
+
+A bare repository contains no working or checked out copy of your source files. And second, bare repos store git revision history of your repo in the root folder of your repository instead of in a .git subfolder. 
+
+
+-git fetch and git merge remotename/branchname to get commits from a remote. When would this be a good idea as opposed to simply doing git pull remotename branchname? Briefly discuss remote-tracking branches and their relevance in your answer.
+
+git pull basically does a git fetch followed by a git merge.
+git fetch updates your remote-tracking branches but never changes any of your own local branches. It is safe to do without changing the current working copy.
+On the other hand, git pull brings a local branch up-to-date with its remote version, also updating your other remote-tracking branches.
+
+
+-suppose I asked you to make a commit on the 'other' branch. If I wanted you to push this branch, what command would you use?
+git checkout -b new-branch
+git push -u origin new-branch
+
